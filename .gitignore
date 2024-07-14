@@ -1,0 +1,13 @@
+# Visual Stuio files and folders
+.vs
+*.sln
+*.vcxproj
+*.filters
+*.user
+x64/
+Debug/
+Release/
+
+# Visual Studio Code files and folders
+.vscode
+*.exe
