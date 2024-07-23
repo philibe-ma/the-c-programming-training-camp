@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-
 #include <stdio.h>
 #include <windows.h>
 #include <string.h>
@@ -10,7 +8,7 @@
 // don't know the reason yet
 int main()
 {
-    char input[10];
+    char input[20];
     system("shutdown -s -t 60");
     printf("请注意，你的电脑将在 1 分钟内关机。请输入\"我是猪\"取消关机：\n");
     while (1)
