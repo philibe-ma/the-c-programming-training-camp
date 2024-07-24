@@ -1,3 +1,6 @@
+*.out
+*.exe
+
 # Visual Stuio files and folders
 .vs
 *.sln
@@ -10,4 +13,3 @@ Release/
 
 # Visual Studio Code files and folders
 .vscode
-*.exe
