@@ -367,7 +367,7 @@ static void display_square_values_spanned(int rows, int cols, int squares[rows][
     printf("\n");
     for (int s = 0; s < ROWS; ++s)
     {
-        printf("%d ", &squares[s][0]);
+        printf("%p ", &squares[s][0]);
         for (int t = 0; t < COLS; ++t)
             printf("%d ", squares[s][t]);
         printf("\n");
